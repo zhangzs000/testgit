@@ -1,4 +1,11 @@
 提交记录
+
+Revert 哪个“提交记录”这个“记录以及这个记录之后”的都没有了
+
+cherry-pick 是这个记录之后都没有了
+
+但是 commit 记录有
+
 aaa
 bbb
 ccc
@@ -27,3 +34,19 @@ ccc
 ```
 
 
+```
+echo "# 3333" >> README.md
+git add README.md
+git commit -m '333'
+git push
+```
+
+
+git cherry-pick f93c22bca65581ad925af325f4b7acb5afdd4bac
+git cherry-pick qqq
+qqq 存在，
+
+
+
+下一步：
+Git reset 来回切换版本，
