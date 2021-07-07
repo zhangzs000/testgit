@@ -27,11 +27,3 @@ ccc
 ```
 
 
-```
-echo "# 3333" >> README.md
-git add README.md
-git commit -m '333'
-git push
-```
-
-
