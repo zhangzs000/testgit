@@ -1,8 +1,9 @@
 提交记录
-
+```
 Revert 哪个“提交记录”这个“记录以及这个记录之后”的都没有了，但是 gitlab 那 revert 就只能消掉某一条 commit 
 
 cherry-pick 是这个记录之后都没有了
+```
 
 但是 commit 记录有
 
